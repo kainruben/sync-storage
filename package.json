@@ -21,14 +21,14 @@
     "SyncStorage",
     "Storage"
   ],
-  "author": "Raphael Porto",
+  "author": "Ruben Romero",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/raphaelpor/SyncStorage.git"
+    "url": "git+https://github.com/kainruben/sync-storage"
   },
   "bugs": {
-    "url": "https://github.com/raphaelpor/SyncStorage/issues"
+    "url": "https://github.com/kainruben/sync-storage/issues"
   },
   "peerDependencies": {
     "react": "*",
