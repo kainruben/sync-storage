@@ -1,15 +1,11 @@
-require 'json'
-
-package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
-
 Pod::Spec.new do |s|
-  s.name         = package['name']
-  s.version      = package['version']
-  s.summary      = package['description']
-  s.license      = package['license']
+  s.name         = "sync-storage"
+  s.version      = "0.1.0"
+  s.summary      = "commons test fw via pod."
+  s.license      =  { :type => "MIT", :file => "LICENSE" }
 
-  s.authors      = package['author']
-  s.homepage     = package['homepage']
+  s.authors      = { "Ruben" => "ruromeroc@gmail.com" }
+  s.homepage     = "https://github.com/kainruben/sync-storag"
   s.platforms    = { :ios => "9.0", :osx => "10.13" }
 
   s.source       = { :git => "https://github.com/kainruben/sync-storage.git", :tag => "v0.4.2" }
